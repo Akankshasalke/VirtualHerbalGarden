@@ -6,6 +6,7 @@ import Veda from '../Components/veda/veda';
 
 
 
+
 const Home=()=>{
 
     
@@ -14,6 +15,7 @@ const Home=()=>{
             <Hero/>
             <Popular/>
             <Veda/>
+           
             
          
         </div>

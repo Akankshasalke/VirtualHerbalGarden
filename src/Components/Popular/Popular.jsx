@@ -16,7 +16,7 @@ const Popular = () => {
             name={item.name}
             common_name={item.commonName}
             scientific_name={item.scientificName}
-            imgClass="popular-image" // Add class name here
+           // Add class name here
           />
         ))}
       </div>
