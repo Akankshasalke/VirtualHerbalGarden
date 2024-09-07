@@ -1,0 +1,40 @@
+.item{
+    width:350px;
+
+}
+
+.item p{
+    margin:6px 0px;
+}
+
+.item-name{
+    
+    gap:20px;
+}
+
+.item-cn{
+    color:#374151;
+    font-size:18px;
+    font-weight: 600;
+}
+.item-cn h6 span{
+    color:#02070e;
+
+}
+
+
+.item-sn{
+    color:#374151;
+    font-size:18px;
+    font-weight: 600;
+
+}
+.item-sn h6 span{
+    color:#02070e;
+  
+
+}
+.item img:hover{
+    transform:scale(1.05);
+    transition:0.6s;
+}
