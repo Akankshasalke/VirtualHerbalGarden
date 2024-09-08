@@ -5,7 +5,7 @@ import elderberry_img from "./3Elderberry.jpg";
 import garlic_img from "./3garlic.jpeg";
 import echinacea_img from "./3Echinacea.jpg";
 import thyme_img from "./2thyme.jpg";
-import chamomile_img from "./2chamomile.jpg";
+
 import sage_img from "./2sage.webp";
 import mint_img from "./2mint.webp";
 import aloe_vera_img from "./2aloe-vera.webp";
@@ -33,262 +33,299 @@ let all_product = [
   // Immunity
   {
     id: 1,
-    name: "Astragalus",
+    description: "Boosts immune function and helps the body adapt to stress.",
     category: "immunity",
     image: astragalus_img,
-    description: "Boosts immune function and helps the body adapt to stress.",
+    common_name: "Astragalus",
+    scientific_name: "Astragalus membranaceus"
   },
   {
     id: 2,
-    name: "Mushrooms",
+    description: "Rich in beta-glucans to support immune health.",
     category: "immunity",
     image: mushrooms_img,
-    description: "Rich in beta-glucans to support immune health.",
+    common_name: "Mushrooms",
+    scientific_name: "Agaricus bisporus"
   },
   {
     id: 3,
-    name: "Ashwagandha",
+    description: "Helps reduce stress and enhance immunity.",
     category: "immunity",
     image: ashwagandha_img,
-    description: "Helps reduce stress and enhance immunity.",
+    common_name: "Ashwagandha",
+    scientific_name: "Withania somnifera"
   },
   {
     id: 4,
-    name: "Elderberry",
+    description: "Supports respiratory health and boosts the immune system.",
     category: "immunity",
     image: elderberry_img,
-    description: "Supports respiratory health and boosts the immune system.",
+    common_name: "Elderberry",
+    scientific_name: "Sambucus nigra"
   },
   {
     id: 5,
-    name: "Garlic",
+    description: "Contains allicin, known for its immune-boosting properties.",
     category: "immunity",
     image: garlic_img,
-    description: "Contains allicin, known for its immune-boosting properties.",
+    common_name: "Garlic",
+    scientific_name: "Allium sativum"
   },
   {
     id: 6,
-    name: "Echinacea",
+    description: "Helps to fight infections and supports immune defense.",
     category: "immunity",
     image: echinacea_img,
-    description: "Helps to fight infections and supports immune defense.",
+    common_name: "Echinacea",
+    scientific_name: "Echinacea purpurea"
   },
-  
+
   // Skin Care
   {
     id: 7,
-    name: "Thyme",
+    description: "A natural antiseptic for skin care.",
     category: "skin care",
     image: thyme_img,
-    description: "A natural antiseptic for skin care.",
+    common_name: "Thyme",
+    scientific_name: "Thymus vulgaris"
   },
   {
     id: 8,
-    name: "Chamomile",
-    category: "skin care",
-    image: chamomile_img,
     description: "Soothes the skin and reduces inflammation.",
+    category: "skin care",
+    image: chamomile_d_img,
+    common_name: "Chamomile",
+    scientific_name: "Matricaria chamomilla"
   },
   {
     id: 9,
-    name: "Sage",
+    description: "Helps control acne and promotes clear skin.",
     category: "skin care",
     image: sage_img,
-    description: "Helps control acne and promotes clear skin.",
+    common_name: "Sage",
+    scientific_name: "Salvia officinalis"
   },
   {
     id: 10,
-    name: "Mint",
+    description: "Cools and refreshes the skin.",
     category: "skin care",
     image: mint_img,
-    description: "Cools and refreshes the skin.",
+    common_name: "Mint",
+    scientific_name: "Mentha"
   },
   {
     id: 11,
-    name: "Aloe Vera",
+    description: "Known for its moisturizing and healing properties.",
     category: "skin care",
     image: aloe_vera_img,
-    description: "Known for its moisturizing and healing properties.",
+    common_name: "Aloe Vera",
+    scientific_name: "Aloe barbadensis miller"
   },
   {
     id: 12,
-    name: "Lavender",
+    description: "Calms and heals irritated skin.",
     category: "skin care",
     image: lavender_img,
-    description: "Calms and heals irritated skin.",
+    common_name: "Lavender",
+    scientific_name: "Lavandula"
   },
   {
     id: 13,
-    name: "Rosemary",
+    description: "Rich in antioxidants, promotes healthy skin.",
     category: "skin care",
     image: rosemary_img,
-    description: "Rich in antioxidants, promotes healthy skin.",
+    common_name: "Rosemary",
+    scientific_name: "Salvia rosmarinus"
   },
   {
     id: 14,
-    name: "Cucumber",
+    description: "Hydrates and soothes skin.",
     category: "skin care",
     image: cucumber_img,
-    description: "Hydrates and soothes skin.",
+    common_name: "Cucumber",
+    scientific_name: "Cucumis sativus"
   },
   {
     id: 15,
-    name: "Calendula",
+    description: "Soothes skin and speeds up wound healing.",
     category: "skin care",
     image: calendula_img,
-    description: "Soothes skin and speeds up wound healing.",
+    common_name: "Calendula",
+    scientific_name: "Calendula officinalis"
   },
   {
     id: 16,
-    name: "Bay Leaf",
+    description: "Has antiseptic properties for skin care.",
     category: "skin care",
     image: bay_leaf_img,
-    description: "Has antiseptic properties for skin care.",
+    common_name: "Bay Leaf",
+    scientific_name: "Laurus nobilis"
   },
   {
     id: 17,
-    name: "Cilantro",
+    description: "Helps detoxify the skin.",
     category: "skin care",
     image: cilantro_img,
-    description: "Helps detoxify the skin.",
+    common_name: "Cilantro",
+    scientific_name: "Coriandrum sativum"
   },
   {
     id: 18,
-    name: "Roses",
+    description: "Hydrates and rejuvenates skin.",
     category: "skin care",
     image: roses_img,
-    description: "Hydrates and rejuvenates skin.",
+    common_name: "Roses",
+    scientific_name: "Rosa"
   },
 
   // Digestive Health
   {
     id: 19,
-    name: "Angelica",
+    description: "Supports digestion and relieves gas.",
     category: "digestive health",
     image: angelica_img,
-    description: "Supports digestion and relieves gas.",
+    common_name: "Angelica",
+    scientific_name: "Angelica archangelica"
   },
   {
     id: 20,
-    name: "Chamomile",
+    description: "Soothes digestive discomfort.",
     category: "digestive health",
     image: chamomile_d_img,
-    description: "Soothes digestive discomfort.",
+    common_name: "Chamomile",
+    scientific_name: "Matricaria chamomilla"
   },
   {
     id: 21,
-    name: "Cinnamon",
+    description: "Promotes healthy digestion and regulates blood sugar.",
     category: "digestive health",
     image: cinnamon_img,
-    description: "Promotes healthy digestion and regulates blood sugar.",
+    common_name: "Cinnamon",
+    scientific_name: "Cinnamomum verum"
   },
   {
     id: 22,
-    name: "Triphala",
+    description: "Aids digestion and detoxification.",
     category: "digestive health",
     image: triphala_img,
-    description: "Aids digestion and detoxification.",
+    common_name: "Triphala",
+    scientific_name: "Three fruits: Emblica officinalis, Terminalia bellirica, Terminalia chebula"
   },
   {
     id: 23,
-    name: "Licorice",
+    description: "Soothes the digestive tract and relieves indigestion.",
     category: "digestive health",
     image: licorice_img,
-    description: "Soothes the digestive tract and relieves indigestion.",
+    common_name: "Licorice",
+    scientific_name: "Glycyrrhiza glabra"
   },
   {
     id: 24,
-    name: "Rosemary",
+    description: "Stimulates digestion and relieves bloating.",
     category: "digestive health",
     image: rosemary_d_img,
-    description: "Stimulates digestion and relieves bloating.",
+    common_name: "Rosemary",
+    scientific_name: "Salvia rosmarinus"
   },
   {
     id: 25,
-    name: "Bael Plant",
+    description: "Aids in digestion and promotes bowel health.",
     category: "digestive health",
     image: bael_plant_img,
-    description: "Aids in digestion and promotes bowel health.",
+    common_name: "Bael Plant",
+    scientific_name: "Aegle marmelos"
   },
   {
     id: 26,
-    name: "Lemon Balm",
+    description: "Calms the digestive system and reduces stress.",
     category: "digestive health",
     image: lemon_balm_img,
-    description: "Calms the digestive system and reduces stress.",
+    common_name: "Lemon Balm",
+    scientific_name: "Melissa officinalis"
   },
   {
     id: 27,
-    name: "Fennel",
+    description: "Relieves gas and supports digestion.",
     category: "digestive health",
     image: fennel_img,
-    description: "Relieves gas and supports digestion.",
+    common_name: "Fennel",
+    scientific_name: "Foeniculum vulgare"
   },
   {
     id: 28,
-    name: "Peppermint",
+    description: "Eases digestive discomfort and relieves bloating.",
     category: "digestive health",
     image: peppermint_img,
-    description: "Eases digestive discomfort and relieves bloating.",
+    common_name: "Peppermint",
+    scientific_name: "Mentha piperita"
   },
   {
     id: 29,
-    name: "Turmeric",
+    description: "Promotes healthy digestion and reduces inflammation.",
     category: "digestive health",
     image: turmeric_img,
-    description: "Promotes healthy digestion and reduces inflammation.",
+    common_name: "Turmeric",
+    scientific_name: "Curcuma longa"
   },
   {
     id: 30,
-    name: "Ginger",
+    description: "Helps with nausea and improves digestion.",
     category: "digestive health",
     image: ginger_img,
-    description: "Helps with nausea and improves digestion.",
+    common_name: "Ginger",
+    scientific_name: "Zingiber officinale"
   },
-  // Adding 6 more immunity plants
+  // Immunity
 {
   id: 31,
-  name: "Triphala",
+  description: "Rich in antioxidants, helps boost the immune system.",
   category: "immunity",
-  image: triphala_img,
-  description: "A powerful antioxidant that boosts immunity and overall health.",
+  image: thyme_img,
+  common_name: "Thyme",
+  scientific_name: "Thymus vulgaris"
 },
 {
   id: 32,
-  name: "Licorice",
+  description: "Promotes immune health and reduces inflammation.",
   category: "immunity",
-  image: licorice_img,
-  description: "Supports the immune system and helps fight off infections.",
+  image: lemon_balm_img,
+  common_name: "Lemon Balm",
+  scientific_name: "Melissa officinalis"
 },
 {
   id: 33,
-  name: "Rosemary",
+  description: "Known for its immune-boosting properties and anti-inflammatory benefits.",
   category: "immunity",
   image: rosemary_d_img,
-  description: "Contains antioxidants that support immune function.",
+  common_name: "Rosemary",
+  scientific_name: "Salvia rosmarinus"
 },
 {
   id: 34,
-  name: "Peppermint",
+  description: "Aids in boosting immunity and fighting infections.",
   category: "immunity",
   image: peppermint_img,
-  description: "Has antiviral properties that help boost immune response.",
+  common_name: "Peppermint",
+  scientific_name: "Mentha piperita"
 },
 {
   id: 35,
-  name: "Turmeric",
+  description: "Contains curcumin, which has immune-boosting and anti-inflammatory properties.",
   category: "immunity",
   image: turmeric_img,
-  description: "Contains curcumin, known for its immune-boosting properties.",
+  common_name: "Turmeric",
+  scientific_name: "Curcuma longa"
 },
 {
   id: 36,
-  name: "Ginger",
+  description: "Helps strengthen the immune system and reduce oxidative stress.",
   category: "immunity",
   image: ginger_img,
-  description: "Boosts immunity and helps combat infections.",
-},
-
+  common_name: "Ginger",
+  scientific_name: "Zingiber officinale"
+}
+,
 ];
 
 export default all_product;
+
