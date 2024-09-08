@@ -25,13 +25,7 @@ let data_product = [
     commonName: "Ashwagandha",
     scientificName: "Withania somnifera",
   },
-  {
-    id: 4,
-    name: "Supports respiratory health and boosts the immune system.",
-    image: elderberry_img,
-    commonName: "Elderberry",
-    scientificName: "Sambucus nigra",
-  },
+  
 ];
 
 export default data_product;

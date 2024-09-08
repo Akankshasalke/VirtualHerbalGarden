@@ -5,7 +5,8 @@ import elderberry_img from "./3Elderberry.jpg";
 import garlic_img from "./3garlic.jpeg";
 import echinacea_img from "./3Echinacea.jpg";
 import thyme_img from "./2thyme.jpg";
-import chamomile_img from "./Chamomile.jpg"; // Ensure this path is correct
+import chamomile_img from "./Chamomile.jpg";
+import rosemary_d_img from "./rosemary.jpg"; // Ensure this path is correct
 
 let new_collections = [
   {
@@ -73,6 +74,15 @@ let new_collections = [
     scientificName: "Matricaria chamomilla",
     
   },
+  {
+    id: 33,
+    name: "Rosemary (Contains antioxidants that support immune function)",
+    image: rosemary_d_img,
+    commonName: "Rosemary",
+    scientificName: "Salvia rosmarinus"
+  }
+,  
+
 ];
 
 export default new_collections;
