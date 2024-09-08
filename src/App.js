@@ -6,6 +6,7 @@ import PlantCategory from './Pages/PlantCategory';
 import Plant from './Pages/Plant';
 import LoginSignup from './Pages/LoginSignup';
 import Add from './Pages/add'; // Ensure you have this import for the Add component
+import Footer from './Components/Footer/Footer';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path='/add' element={<Add />} />
                     <Route path='/login' element={<LoginSignup />} />
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </div>
     );
